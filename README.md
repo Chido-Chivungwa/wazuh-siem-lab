@@ -95,11 +95,11 @@ chmod +x scan.sh
 
 ### Brute Force Attack
 Executed a controlled SSH brute force to trigger high-fidelity detection:
-
+```
 for i in {1..15}; do 
     sshpass -p "wrongpassword$i" ssh -o ConnectTimeout=3 -o StrictHostKeyChecking=no labuser@192.168.23.132 "echo test"
 done
-
+```
 ### Why this attack vector?
 While the Nmap SYN scan generated firewall blocks visible in /var/log/syslog, Wazuh's default rule set prioritizes authentication-based anomalies. The SSH brute force triggered immediate, high-confidence alerts with full MITRE ATT&CK mapping.
 
