@@ -21,14 +21,14 @@ Simulate network reconnaissance and brute force attacks against a protected endp
 ---
 
 ## Architecture Diagram
-
+```
 [Kali Attacker] --(Nmap / SSH brute force)--> [Ubuntu-Target]
 |
 | Wazuh Agent
 v
 [Wazuh-Server]
 (SIEM)
-
+```
 ---
 
 ## Phase 1 – Infrastructure Setup
