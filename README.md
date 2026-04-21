@@ -86,11 +86,12 @@ echo ""
 echo "[*] Scan completed: $(date)"
 echo "[*] Check Wazuh dashboard for detection alerts"
 
+```
 ### Execution:
-
+```
 chmod +x scan.sh
 ./scan.sh 192.168.23.132
-
+```
 
 ### Brute Force Attack
 Executed a controlled SSH brute force to trigger high-fidelity detection:
@@ -150,12 +151,12 @@ MITRE Tactics: Credential Access, Lateral Movement
 
 ---
 ## Tools & Technologies
-SIEM: Wazuh 4.7
-Scanner: Nmap 7.98
-Automation: Bash / Shell Scripting
-Virtualization: VMware Workstation
-OS: Ubuntu Server 24.04.4 LTS, Kali Linux 2026.1
-Framework: MITRE ATT&CK
+* SIEM: Wazuh 4.7
+* Scanner: Nmap 7.98
+* Automation: Bash / Shell Scripting
+* Virtualization: VMware Workstation
+* OS: Ubuntu Server 24.04.4 LTS, Kali Linux 2026.1
+* Framework: MITRE ATT&CK
 
 ---
 ## Lessons Learned
@@ -181,6 +182,12 @@ Framework: MITRE ATT&CK
 ---
 ## Author
 Chido Chivungwa
+
+
 Aspiring Cybersecurity Analyst
+
+
 [LinkedIn Profile URL](https://www.linkedin.com/in/chido-chivungwa-abb243348/)
+
+
 [GitHub Profile URL](https://github.com/Chido-Chivungwa)
